@@ -1,1 +1,9 @@
-const connectionString = 'mongodb+srv://asthadevadiga7:<db_password>@asthacluster.gvjdyip.mongodb.net/?retryWrites=true&w=majority&appName=asthaCluster'
+const mongoose = require('mongoose');
+
+
+const connectDB = (url) => {
+    return mongoose
+        .connect(url)
+}
+
+module.exports = connectDB;
