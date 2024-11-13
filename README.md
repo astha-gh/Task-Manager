@@ -4,16 +4,16 @@ This repository contains the code for a simple Task Manager API built with Node.
 
 ## Features
 
--Create new tasks
--Retrieve all tasks or a specific task
--Update task details
--Delete tasks
+   -Create new tasks
+   -Retrieve all tasks or a specific task
+   -Update task details
+   -Delete tasks
 
 ## Prerequisites
 
--Node.js (v14 or higher)
--MongoDB (installed locally or use MongoDB Atlas for a cloud instance)
--An environment file (.env)
+   -Node.js (v14 or higher)
+   -MongoDB (installed locally or use MongoDB Atlas for a cloud instance)
+   -An environment file (.env)
 
 ## Installation
 
